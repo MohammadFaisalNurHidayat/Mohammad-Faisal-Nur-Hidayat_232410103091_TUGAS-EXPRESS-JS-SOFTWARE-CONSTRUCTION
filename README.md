@@ -5,3 +5,9 @@ node modules saya hapus karena folder tersebut berisi file yang sangat banyak ja
 
 npm install untuk mengembalikan node_modules
 
+untuk env nya juga 
+PORT=3000
+DB_NAME=media_db
+DB_USER=root
+DB_PASS=
+DB_HOST=127.0.0.1
