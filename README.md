@@ -12,3 +12,6 @@ Berisi service upload gambar menggunakan Express.js dan integrasi API Gateway.
 - Ambil data gambar (GET /media)
 - Hapus data gambar (DELETE /media/:id)
 - API Gateway sebagai penghubung service
+
+# Node_modules tidak diupload karena terlalu besar
+untuk itu npm install sebelum menjalankan projek
