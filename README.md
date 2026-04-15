@@ -1,14 +1,14 @@
- Express Media Service
+Saya menggunakan API Gateway sebagai perantara antara client dan media service untuk mengatur routing request.
 
-Project sederhana untuk upload gambar menggunakan Express.js dan Sequelize.
-node modules saya hapus karena folder tersebut berisi file yang sangat banyak jadi untuk bisa diupload ke github saya hapus, Untuk itu mungkin bisa jalankan dulu perintah dibawah ini 
+# Express Media Service + API Gateway
 
-npm install untuk mengembalikan node_modules
+Project ini dibuat untuk tugas Software Construction.  
+Berisi service upload gambar menggunakan Express.js dan integrasi API Gateway.
 
-untuk env nya juga 
-PORT=3000
-DB_NAME=media_db
-DB_USER=root
-DB_PASS=
-DB_HOST=127.0.0.1
-.
+## Fitur
+- Upload gambar (Base64)
+- Simpan file ke folder public/images
+- Simpan data ke database MySQL
+- Ambil data gambar (GET /media)
+- Hapus data gambar (DELETE /media/:id)
+- API Gateway sebagai penghubung service
